@@ -132,7 +132,6 @@ Se descarta **Strategy**.
 - VS Code o IntelliJ IDEA, Git, GitHub
 
 ## Conclusiones
-[Párrafo de 3-5 oraciones con los aprendizajes más relevantes de
-ambas partes, incluyendo qué hizo difícil o fácil decidir entre
-patrones cercanos.]
+
+El desarrollo de esta actividad permitió evidenciar cómo los patrones de diseño del GoF facilitan la creación de sistemas extensibles y desacoplados ante requerimientos cambiantes en la gestión de compras. La implementación de Chain of Responsibility y Command en la primera parte simplificó el manejo de flujos de aprobación y acciones reversibles, mientras que State y Observer en la segunda parte garantizaron la correcta encapsulación de reglas de negocio y la notificación reactiva a múltiples clientes. La principal dificultad radicó en distinguir las fronteras entre patrones cercanos, como diferenciar entre un estado interno que cambia el comportamiento del objeto (State) frente a una estrategia intercambiable por el cliente (Strategy), o cuándo usar una cadena jerárquica frente a un patrón de comandos encapsulados. En conclusión, la aplicación combinada de estos patrones de comportamiento mejora la mantenibilidad del software al evitar condicionales anidados y reducir acoplamiento directo entre módulos.
 
